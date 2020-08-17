@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given the software can classify each person as patient, staff, specialist or patient visitor
+  Given the software can classify each person into patient, specialist, staff, non-patient
   
   When the software submits a report
   
