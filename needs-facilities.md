@@ -6,12 +6,12 @@ Scenario: Report visitor trends during a week of operation
   
   When the week ends
   
-  Then a graph with visitors count per day is included in the report
+  Then the software includes a graph with visitors count per day in the report
 
 Scenario: Alert when seating capacity is full
 
-  Given the software knows how many seats are present
+  Given the software knows the number of seats are present
   
-  When only 15% of the seats are empty
+  When 15% of the seats are empty
   
   Then the software issues an alert to facilities manager
