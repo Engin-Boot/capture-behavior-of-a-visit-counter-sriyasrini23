@@ -14,4 +14,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   
   When the day begins
   
-  Then the software indicates number of parking spots to be saved
+  Then the software indicates number of parking spots the director must save
